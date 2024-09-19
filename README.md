@@ -3,7 +3,8 @@ C code to compute LL(1)_parse_table
 # Instructions to run
 
 ## Example 1
-enter the productions in the form<br/>
+### enter the productions in the form<br/>
+### Input:
 Enter the number of non-terminals: 3<br/>
 Enter non-terminal 1: S<br/>
 Enter production for S: aABb<br/>
@@ -11,7 +12,7 @@ Enter non-terminal 2: A<br/>
 Enter production for A: c|#<br/>
 Enter non-terminal 3: B<br/>
 Enter production for B: d|#<br/><br/>
-
+### Output:
 First sets:<br/>
 First(S) = { a }<br/>
 First(A) = { c, # }<br/>
@@ -30,6 +31,7 @@ LL(1) Parsing Table:<br/>
 | **B** |       |       |       | d     | #     |
 
 ## Example 2<br/>
+### Input:
 Enter the number of non-terminals: 5<br/>
 Enter non-terminal 1: S<br/>
 Enter production for S: AB|eDa<br/>
@@ -42,6 +44,7 @@ Enter production for C: eC|#<br/>
 Enter non-terminal 5: D<br/>
 Enter production for D: fD|#<br/>
 <br/>
+### Output
 First sets:<br/>
 First(S) = { a, c, e }<br/>
 First(A) = { a, c }<br/>
