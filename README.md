@@ -1,7 +1,7 @@
 # LL-1-_parse_table
 C code to compute LL(1)_parse_table
 # Instructions to run
-
+(Note: # is taken as Epsilon)
 ## Example 1
 ### enter the productions in the form<br/>
 ### Input:
